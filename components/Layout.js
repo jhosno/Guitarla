@@ -5,12 +5,12 @@ import Footer from './Footer';
 
 
 
-const Layout = ({ children, page }) => {
+const Layout = ({ children, page, description }) => {
     return (
         <div>
             <Head>
-                <title>Guitar LA | {page}</title>
-                <meta name="description" content="Your custom guitar shop 🎸" />
+                <title>{`Guitar LA 🎸 | ${page}`}</title>
+                <meta name="description" content={`${description}`} />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <Header/>

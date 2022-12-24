@@ -16,7 +16,7 @@ function Footer() {
 
                 <p>
 
-                    All rights reserved |{' '}
+                    All rights reserved {new Date().getFullYear() + ' '}|{' ' }
                     <a
                         href="https://jhosno.github.io"
                         target="_blank"
